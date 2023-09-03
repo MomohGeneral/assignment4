@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/pw-extended');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   justify-items: center;
+align-items: center;
+overflow: hidden;
+width: 90%;
+margin: auto;
+
+    
+
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+   
+    
+    font-family: 'PW Extended', sans-serif;
+    
+
+}
+
+section{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+ /* flex-direction: row; */
+ gap: 2rem;
+}
+
+.home{
+    color: white;
+
+}
+
+  .zero1{
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'PW Extended', sans-serif;
+    width: 50%;
+    height: 50%;
+}
+
+.btn-game{
+    font-family: 'PW Extended', sans-serif;
+    background-color: lightgreen;
+    margin-top: 12rem;
+
+}
+
+.zero2{
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'PW Extended', sans-serif;
+    width: 50%;
+    height: 50%;
+
+}
+
+.guest{
+    color: white;
+}
+
+

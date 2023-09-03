@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"/>
+    <title>bootstrap Tuts</title>
+  </head>
+  <body>
+    <!-- heading tags -->
+    <section>
+      <h1>Bootstrap 5 tuts</h1>
+      <h2>h2 tag</h2>
+      <h3>h3 tag</h3>
+      <h2>this is an h2 tag with h3 class</h2>
+    </section>
+
+    display heading
+    <section>
+      <h1 class="display-1">display-1 heading</h1>
+      <h1 class="display-2">display-2 heading</h1>
+      <p class="display-1">p tag with display-1 class</p>
+    </section>
+
+    <!-- alignment -->
+    <section>
+      <p class="text-center">Lorem ipsum dolor sit amet.</p>
+      <p class="text-end">Lorem, ipsum dolor.</p>
+      <p>Lorem, ipsum.</p>
+    </section>
+
+    <!-- text decoration and font weight -->
+    <section>
+      <p class="text-decoration-underline">this an underline</p>
+      <p class="text-decoration-line-through">this is line through</p>
+      <p class="fw-bold">this is bold text</p>
+    </section>
+
+    <!-- this section is for color -->
+    <section>
+      <p class="text-success">primary</p>
+      <p class="text-secondary">Secondary</p>
+      <p class="text-danger">Danger</p>
+    </section>
+
+    <!-- this section is for background -->
+    <section>
+      <p class="text-white bg-primary text-center">white text on primary bg</p>
+      <p class="text-white bg-secondary text-end">white text on secondary bg</p>
+      <p class="text-white bg-danger text-decoration-line-through">
+        blue text on danger bg
+      </p>
+    </section>
+    <!-- this section is for button -->
+    <section>
+      <h2><button></button></h2>
+      <button class="btn btn-primary">primary btn</button>
+      <button class="btn btn-secondary">secondary btn</button>
+    </section>
+
+    <!-- this is section is for link(anchor tag) -->
+    <section>
+      <a href="#" class="btn btn-warning">Momoh</a>
+    </section>
+
+    <!-- this section is ton increase a size of a button -->
+    <section>
+      <button class="btn btn-lg btn-danger">large btn</button>
+      <button class="btn btn-sm btn-danger">small btn</button>
+    </section>
+
+    <!-- this section is for outline styles -->
+    <section>
+      <button class="btn btn-outline-secondary btn-primary text-danger">
+        outlined primary btn
+      </button>
+      <button>large outlined secondary btn</button>
+    </section>
+
+    <!-- box model -->
+    <section>
+      <div class="m-1 bg-primary p-1"><h2>small margin and padding</h2></div>
+      <div class="m-5 bg-danger p-5"><h4>large margin and padding</h4></div>
+      <div class="my-5 px-5 bg-secondary">
+        <h4>margin in y direction and padding in x direction</h4>
+      </div>
+      <div class="bg-warning mt-5 mb-3 ms-5 me-4 ps-5 pt-5 pb-4">
+        <h4>margin and padding for each direction</h4>
+      </div>
+    </section>
+
+    <!-- borders -->
+    <section>
+      <div class="ms-3 border"><h2>default border</h2></div>
+      <div class="ms-4 border-bottom border-end text-center">
+        <h2>individual border</h2>
+      </div>
+      <div class="m-4 border-start border-success">
+        border success color at start
+      </div>
+      <div class="border-bottom border-danger border-5">
+        <h2>thicker border</h2>
+      </div>
+      <div class="border rounded border-5"><h4>rounded corners</h4></div>
+      <div class="border border-5 rounded-pill">
+        <h2>rounded pill corners</h2>
+      </div>
+    </section>
+
+    <!-- box shadow -->
+    <section class="my-5 border border-danger">
+      <div class="shadow-sm"><h2>element with small box shadow</h2></div>
+      <div class="shadow-lg"><h4>element with large box shadow</h4></div>
+    </section>
+    <!-- font weight and style -->
+    <section>
+      <p class="fst-italic">italic lightb text</p>
+      <p class="fw-bold">bold text</p>
+    </section>
+
+    <!-- containers-to wrap page content,can also center content,also for bootsrap grid system,lets goto containers in bootsrap site -->
+    <section class="container">
+        <div>normal container</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quaerat eos harum voluptatibus animi saepe id temporibus accusamus hic et.</p>
+    </section>
+
+    <!-- container-fluid -->
+    <section class="container-fluid">
+        <div>
+            <h2>fluid container</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nihil quos, pariatur voluptas quaerat at in sapiente non sed voluptatum?</p>
+        </div>
+    </section>
+    <!-- container for a particular screen size -->
+    <section class="container-xl">
+        <h2>100% width until lg screen,den container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium exercitationem fugit rem quasi id laborum nostrum, sapiente eos inventore eveniet ea fuga, provident praesentium aliquid alias quibusdam nihil! Nesciunt.</p>
+
+    </section>
+    <!-- flex box -->
+    <section class="container d-flex justify-content-between">
+        <div class="w-25 border bg-danger text-white text-center">
+            <h2>Izu</h2>
+        </div>
+    </div>
+    <div class="w-25 d-lg-none d-xl-block">
+        <h2>Presh</h2>
+    </div>
+</section>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Grid layout...grid layout is a way of placing contents in rows and cols,btstrp uses 12 cols grid system, from 1 to 12 cols in width,grid always goes inside a container...cheq grid system on btstp docs -->
+    <section class="container bg-primary my-5">
+      <h2>basic grid system</h2>
+      <div class="row">
+        <div class="col">
+          <h2>col-1</h2>
+        </div>
+        <div class="col">
+          <h2>col-2</h2>
+        </div>
+        <div class="col">
+          <h2>col-3</h2>
+        </div>
+        <div class="col">
+          <h2>col-4</h2>
+        </div>
+      </div>
+    </section>
+    <!-- specifying diff cols and width -->
+    <section class="container  bg-secondary my-5">
+      <h2>basic grid system</h2>
+      <div class="row justify-content-between">
+        <div class="col-6">
+          <h2>col-1</h2>
+        </div>
+        <div class="col-2">
+          <h2>col-2</h2>
+        </div>
+        <div class="col-2">
+          <h2>col-3</h2>
+        </div>
+        <!-- <div class="col">
+          <h2>col-4</h2>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- specifying diff col and width for diff screen sizes -->
+    <section class="container  bg-danger my-5">
+      <h2>basic grid system</h2>
+      <div class="row justify-content-between">
+        <div class="col-sm-4 col-md-7 col-lg-6">
+          <h2>col-1</h2>
+        </div>
+        <div class="col-sm-4 col-md-2 col-lg-3">
+          <h2>col-2</h2>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2">
+          <h2>col-3</h2>
+        </div>
+        <!-- <div class="col">
+          <h2>col-4</h2>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Exercise -->
+    <section class="container bg-success">
+      <div class="row">
+        <div class="col-sm-2 col-md-4 col-lg-5"><h2>Presh</h2> </div>
+        <div class="col"> <h2>Izu</h2> </div>
+        <div class="col"> <h2>Lekan</h2> </div>
+        <div class="col-4"> <h2>Gift</h2> </div>
+        <!-- <div class="col"> <h2>Momoh</h2>  </div>
+        <div class="col"> <h2>Stan</h2> </div>
+        <div class="col"> <h2>Marshall</h2> </div> -->
+      </div>
+    </section>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light ">
+  <div class="container-fluid  ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">contact us</a>
+        </li>
+      </ul>
+      <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleControls" class="carousel slide w-50 m-auto" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/download.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+  </body>
+</html>

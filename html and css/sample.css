@@ -1,0 +1,100 @@
+/* attribute selectors */
+
+input[type='text']{
+    width: 50%;
+}
+input[type='password']{
+    width:  70%;
+}
+
+/* Box Model */
+.section-2{
+    border: 1px solid green ;
+    /* border-style: solid;
+    border-color: green; */
+}
+.section-2 > h2{
+    border: 1px solid green ;
+    
+}
+.section-2 > div{
+    border: 1px solid red ;
+}
+
+/* css for position properties */
+.section-3{
+    border: 2px solid black;
+    padding: 2rem 0;
+    width: 80%;
+
+}
+.section-3 .box{
+    width: 30%;
+    height: 5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    
+}
+.green{
+    background-color: green;
+    position: relative; left: 40%;
+
+}
+.yellow{
+    background-color: yellow;
+    position: relative; left: 60%;
+
+}
+.blue{
+    background-color: blue;
+    color: white;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 20%;
+}
+
+.section-4 > h2{
+    position: sticky;
+    top: 10%;
+}
+
+/* Css flexbox */
+.section-5{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 50rem;
+
+}
+.Green{
+    background-color: green;
+}
+.Yellow{
+    background-color: yellow;
+}
+.Blue{
+    background-color: blue;
+}
+.Red{
+    background-color: red;
+}
+
+.Box{
+    width: 20%;
+    height: 5rem;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+
+}
